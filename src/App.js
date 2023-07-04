@@ -10,13 +10,13 @@ const App = () => {
   })
 
   const handleChange=(e)=>{
-    const names=e.target.name;
+    const name=e.target.name;
     const values=e.target.value;
     // console.log(names,values);
 
     setDetails({
       ...details,
-      [names]:values
+      [name]:values
     })
   }
 
